@@ -8,8 +8,8 @@ export default function Navbar() {
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <span className="flex cursor-pointer items-center">
-          <h1 className="bold-24 text-green-500">Camp</h1>
-          <h1 className="bold-24 text-orange-500">Spot</h1>
+          <h1 className="text-2xl font-bold text-green-50">Camp</h1>
+          <h1 className="text-2xl font-bold">Spot.</h1>
         </span>
       </Link>
 
