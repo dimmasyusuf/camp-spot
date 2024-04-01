@@ -18,7 +18,7 @@ export default function Navbar() {
           <Link
             href={link.href}
             key={link.key}
-            className="regular-16 flexCenter cursor-pointer pb-1.5 text-gray-50 transition-all hover:font-bold"
+            className="regular-16 flexCenter cursor-pointer text-gray-50 transition-all hover:font-bold"
           >
             {link.label}
           </Link>

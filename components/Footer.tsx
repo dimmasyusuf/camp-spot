@@ -24,7 +24,10 @@ export default function Footer() {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="hilink-logo.svg" alt="logo" width={74} height={29} />
+            <span className="flex cursor-pointer items-center">
+              <h1 className="text-2xl font-bold text-green-50">Camp</h1>
+              <h1 className="text-2xl font-bold">Spot.</h1>
+            </span>
           </Link>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
@@ -46,9 +49,11 @@ export default function Footer() {
                   <Link
                     href="/"
                     key={link.label}
-                    className="flex gap-4 md:flex-col lg:flex-row"
+                    className="flex items-center gap-2 md:flex-col md:items-start lg:flex-row"
                   >
-                    <p className="whitespace-nowrap">{link.label}:</p>
+                    <p className="regular-14 whitespace-nowrap">
+                      {link.label}:
+                    </p>
                     <p className="medium-14 whitespace-nowrap text-blue-70">
                       {link.value}
                     </p>
